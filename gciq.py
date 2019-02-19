@@ -15,7 +15,6 @@ import client as gciclient
 import requests
 import urlparse
 import time
-from bs4 import BeautifulSoup
 
 argparser = argparse.ArgumentParser(description='GCI Task Instances')
 argparser.add_argument('--apikey', type=str, nargs='?', required=True,
